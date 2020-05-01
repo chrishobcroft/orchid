@@ -11,7 +11,7 @@ sudo apt-get install \
      git \
      gperf \
      groff \
-     libc++-9 \
+     libc++-9-dev \
      lld \
      make \
      ninja-build \
