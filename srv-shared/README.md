@@ -20,6 +20,7 @@ sudo apt-get install \
      tcl
 sudo pip3 install meson==0.51.2
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
 git clone https://github.com/OrchidTechnologies/orchid.git
 cd orchid/
 git submodule update --init --recursive
